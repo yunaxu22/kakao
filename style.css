@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.about {
+  background: #F2F0F7;
+}
+
+.wrapper {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 48%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
